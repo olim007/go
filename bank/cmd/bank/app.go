@@ -1,7 +1,7 @@
 package main
 
-import "bank/pkg/bank/deposit"
+// import "bank/pkg/bank/deposit"
 
-func execute() {
-	deposit.Calculate(1, "")
-}
+// func execute() {
+// 	deposit.Calculate(1, "")
+// }
