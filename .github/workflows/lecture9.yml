@@ -1,0 +1,22 @@
+name: Lecture 9 - Task 1
+
+
+on:
+  push:
+    paths:
+      - 'docs/lecture9'
+
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/go-setup@v5
+        with:
+          go-version: '1.24'
+
+
+      - name: Run tests
+        working-directory: docs/lecture9
+        run: go test -v ./...
