@@ -3,6 +3,8 @@ name: lecture 10
 
 on:
   push:
+    paths:
+      - 'lecture10'
 
 
 jobs:
