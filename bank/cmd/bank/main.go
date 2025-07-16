@@ -3,7 +3,7 @@ package main
 import (
 	// "bank/pkg/bank/credit"
 	// "bank/pkg/bank/deposit"
-	"bank/pkg/bank/types"
+	"github.com/olim007/go/bank/pkg/bank/types"
 	"fmt"
 )
 

@@ -1,6 +1,8 @@
 package transfer
 
-import "bank/pkg/bank/types"
+import (
+	"github.com/olim007/go/bank/pkg/bank/types"
+)
 
 const bonusPercent = 0.0050
 
