@@ -8,6 +8,7 @@ const (
 	TJS Currency = "TJS"
 	RUB Currency = "RUB"
 	USD Currency = "USD"
+	EUR Currency = "EUR"
 )
 
 type PAN string
@@ -17,7 +18,7 @@ type Card struct {
 	PAN      PAN
 	Balance  Money
 	Currency Currency
-	Color 	 string
+	Color    string
 	Name     string
 	Active   bool
 }
