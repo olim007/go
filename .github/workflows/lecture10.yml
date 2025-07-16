@@ -1,0 +1,19 @@
+name: lecture 10
+
+
+on:
+  push:
+
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-go@v5
+        with:
+          go-version: 1.24
+        
+      - name: Run tests
+        working-directory: lecture10/bank
+        run: go test -v ./...
